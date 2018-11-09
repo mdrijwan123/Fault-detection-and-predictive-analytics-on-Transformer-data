@@ -1,8 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-import os
-os.chdir("C:\\Users\\Mohammed Rizwan\\Documents\\Data Science and Machine learning journey\\Jupyter notebook\\Misc Projects")
 t_data = pd.read_csv("Trans_data.csv")
 t_data.info()
 t_data.describe()
@@ -78,7 +76,7 @@ for udate in tsample_date:
             'T_site':[T_site],
             'T_plant':[T_plant],
             'Sampling_point':[Sampling_point],
-            'CH4(ppm)':[Ch4],
+            'CH4(ppm)':[CH4],
             'H2(ppm)':[H2],
             'C2H2(ppm)':[C2H2],
             'C2H4(ppm)':[C2H4],
